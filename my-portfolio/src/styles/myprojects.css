@@ -1,3 +1,5 @@
+
+
 #myProjects_main{
     /* border-top: 20px solid red; */
     margin: 0vh 0;
@@ -108,4 +110,47 @@ h1 {
     margin-top: 20%;
     box-shadow: rgba(146, 231, 232, 0.793)
      0px 2px 8px 0px;
+     opacity :0.8;
+}
+
+
+/* **********media queries ********** */
+
+@media  all and  (max-width: 600px){
+    .About_first__P-0xg {
+        /* display: flex; */
+        width: 90%;
+        margin-bottom: 0.5rem;
+    }
+    .About_second__g9Cy4 {
+        text-align: justify;
+        width: 100%;
+        margin:auto;
+    }
+    .myProjects_borderBottom__RLbe1 {
+        border-bottom: 3px solid #0282bd;
+        border-radius: 10px;
+        margin: 5px auto;
+        width: 22vw;
+    }
+    #projectLinks{
+        border: 2px solid white;
+        position:absolute;
+        z-index: 1;
+        margin-left: 15% ;
+       
+        box-shadow: rgba(146, 231, 232, 0.793)
+         0px 2px 8px 0px;
+         opacity :0.8;
+         margin: auto;
+         margin-top: 20%;
+    }
+    #projectLinks>div{
+        width: 5rem;
+    }
+
+    #git>a span{
+        width: 0.5rem;
+    }
+    
 }

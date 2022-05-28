@@ -54,7 +54,7 @@ const Myprojects = () => {
             <div id="git">
                 <a href="https://github.com/sachiningale1998/Clone_MamaEarth">
 
-             <span className="iconify" data-icon="feather:github"></span>
+                 <span className="iconify" data-icon="feather:github"></span>
                 </a>
             </div>
             <div id="gotoProject">

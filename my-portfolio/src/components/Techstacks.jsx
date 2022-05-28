@@ -5,7 +5,7 @@ const Techstacks = () => {
   return (
     <div>
       <div id="techStacks" className="Home_techStacks__cFQ0h">
-        <div style={{ height: "15px" }}></div>
+        <br />
         <div
           data-aos="fade-right"
           data-aos-offset="200"

@@ -18,6 +18,8 @@ const About = () => {
               alt=""
             />
           </div>
+
+          
           <div className="About_second__g9Cy4">
             <h1
               className="About_heading__HT8z+"

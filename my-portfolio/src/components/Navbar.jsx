@@ -1,11 +1,12 @@
 import React from 'react'
 import "../styles/navbar.css"
 import logo from "../images/logo.png"
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="mainNav" >
         <nav id="navDiv" className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: "rgb(12, 20, 27)", height : "4rem"}}>
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
@@ -15,9 +16,11 @@ const Navbar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarText">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul  className="navbar-nav ham-memo me-auto mb-2 mb-lg-0">
         <li  className="nav-item">
-          <p id="listComponents" style={{color: "#339fec"}} className="nav-link active" aria-current="page" href="#">Home</p>
+          <Link to ="./">
+            <p id="listComponents" style={{color: "#339fec"}} className="nav-link active" aria-current="page" href="#">Home</p>
+          </Link>
         </li>
         <li  className="nav-item">
           <p id="listComponents" style={{color: "#339fec"}} className="nav-link" href="#">About</p>
@@ -32,9 +35,9 @@ const Navbar = () => {
           <p id="listComponents" style={{color: "#339fec"}} className="nav-link" href="#">Contact</p>
         </li>
       </ul>
-      <span className="navbar-text">
+      {/* <span className="navbar-text">
         Navbar text with an inline element
-      </span>
+      </span> */}
     </div>
   </div>
 </nav>

@@ -162,3 +162,18 @@ TechStacks_logoWrapper__JIjNc>i {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+
+  /* **********media queries ********** */
+
+@media  all and  (max-width: 600px){
+    .TechStacks_container__dY92P {
+        /* border: 1px solid yellow; */
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}

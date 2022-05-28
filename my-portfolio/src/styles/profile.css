@@ -113,3 +113,77 @@
     cursor: pointer;
     color:rgb(236, 236, 100)
 }
+
+
+
+/* **********media queries ********** */
+
+@media  all and  (max-width: 600px) {
+    #name{
+        font-size:1.8rem;
+        letter-spacing: .10em;
+        
+        color: #fff;
+        /* font-weight:400 ; */
+    }
+    #profileDiv{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        font-family: monospace;
+        background-color: rgb(12, 20, 27);
+    }
+    #greet-hi{
+        font-size:1rem ;
+        letter-spacing: .10em;
+        color: rgb(201, 209, 231);
+    }
+    #view-resume{
+        margin-top: 1rem;
+        background-color:  rgb(157, 148, 148);
+        border: 1px solid rgb(157, 148, 148);
+        /* width: 14rem; */
+        font-size:1rem;
+        color: rgb(201, 209, 231);
+      background: linear-gradient(-135deg,#7f1adf,#e7a41f);
+      border: none;
+      border-radius: 5px;
+      margin: 10px 0;
+      outline: none;
+      padding: 20px 30px;
+      transition: all .3s ease-in-out;
+      width: 10rem;
+      display: flex;
+        padding: 0.7rem;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    #links{
+        margin-left: 3.5rem;
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        /* border: 1px solid pink; */
+    }
+    #dp-Div{
+        display: block;
+        /* border: 1px solid pink; */
+        width: 70%;
+        margin-left: 17%;
+        justify-content: center;
+    }
+.typewriter p {
+    color: rgb(201, 209, 231);
+    font-size:1rem;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .9s step-end infinite;
+  }
+}

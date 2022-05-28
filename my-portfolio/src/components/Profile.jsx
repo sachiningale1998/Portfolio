@@ -39,16 +39,24 @@ const Profile = () => {
 
       <div id="links">
           <div id="linkedin">
-            <span className="iconify" data-icon="feather:linkedin"></span>
+            <a href="https://www.linkedin.com/in/sachin98/">
+               <span className="iconify" data-icon="feather:linkedin"></span>  
+            </a>
           </div>
           <div id="gitHub">
-            <span className="iconify" data-icon="feather:github"></span>
+            <a href="https://github.com/sachiningale1998">
+              <span className="iconify" data-icon="feather:github"></span>
+            </a>
           </div>
           <div id="instagram">
-            <span className="iconify" data-icon="feather:instagram"></span>
+            <a href="https://www.instagram.com/im_sachin_ingale/?hl=en">
+               <span className="iconify" data-icon="feather:instagram"></span>
+            </a>
           </div>
           <div id="twitter">
-            <span className="iconify" data-icon="feather:twitter"></span>
+            <a href="https://twitter.com/Sachin_Ingale_">
+              <span className="iconify" data-icon="feather:twitter"></span>
+            </a>
           </div>
       </div>
 

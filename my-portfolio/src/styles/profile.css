@@ -98,14 +98,21 @@
       border-radius: 50%;
       background-color: rgb(12, 20, 27);
 
-      border-bottom : 8px solid white;   
+      border-bottom : 8px solid rgb(181, 223, 230);   
+      box-shadow: rgb(36, 36, 58) 3px 3px 5px;
   }
 #links{
     margin-left: 3.5rem;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
 }
 .iconify{ 
     color: white;
     font-size: 30px;
     margin-top: 2rem;
+}
+.iconify:hover{
+    padding-bottom: 0.5rem;
+    lighting-color: #e7a41f;
+    cursor: pointer;
+    color:rgb(77, 111, 205)
 }

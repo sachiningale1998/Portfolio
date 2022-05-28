@@ -23,13 +23,22 @@ const Profile = () => {
 
       <div id="dp-Div">
         <div id="dp">
-            <img id="img-dp" src="https://o.remove.bg/downloads/0b03a853-0133-49d1-adb3-2cf1275edc31/1649504316031-removebg-preview.png" alt="" />
+            <img id="img-dp" src="https://o.remove.bg/downloads/b57a7223-b127-4a96-a0a6-5f7be269e677/1649504316031-removebg-preview.png" alt="Sachin Ingale's display pic" />
         </div>
       </div>
 
       <div id="links">
+          <div id="linkedin">
+            <span className="iconify" data-icon="feather:linkedin"></span>
+          </div>
           <div id="gitHub">
-          <span className="iconify" data-icon="feather:linkedin"></span>
+            <span className="iconify" data-icon="feather:github"></span>
+          </div>
+          <div id="instagram">
+            <span className="iconify" data-icon="feather:instagram"></span>
+          </div>
+          <div id="twitter">
+            <span className="iconify" data-icon="feather:twitter"></span>
           </div>
       </div>
 

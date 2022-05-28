@@ -1,0 +1,53 @@
+#footer{
+    background-color:#111825;
+    margin: auto;
+    font-family: var(--font-sans);
+    font-family: Roboto Mono,monospace;
+
+}
+
+.getintouch{
+    border: 1px solid white;
+    padding: 1rem;
+    color: #bbd2da;
+    margin: auto;
+    justify-content:center;
+    text-align: center;
+}
+.opportunities{
+    width: 50%;
+    color: #bbd2da;
+    margin: auto;
+    justify-content:center;
+    text-align: center;
+}
+
+.Contact_contactOptions__qH1OA {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    padding: 3rem 0;
+    text-align: center;
+    color: rgb(204, 214, 246);
+}
+
+.logos{
+    margin:auto;
+    border-top: 1px solid red;
+    color: rgb(204, 214, 246);
+    width: 30%;
+    display:flex;
+    justify-content: space-around;
+}
+#logo1{
+  
+        -webkit-text-decoration-skip: ink;
+        color: inherit;
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        text-decoration-skip-ink: auto;
+        transition: var(--transition);
+    
+}

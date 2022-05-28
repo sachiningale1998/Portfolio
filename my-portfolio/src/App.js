@@ -5,6 +5,7 @@ import Profile from './components/Profile';
 import About from './components/About';
 import Techstacks from './components/Techstacks';
 import Myprojects from './components/Myprojects';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Techstacks/>
       <Myprojects />
+      <Contact/>
     </div>
   );
 }

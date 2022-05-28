@@ -7,7 +7,9 @@ import cricinfo from "../images/cricinfo.jpg"
 const Myprojects = () => {
 
 
-    const [links, setLinks] = useState(false);
+    const [links1, setLinks1] = useState(false);
+    const [links2, setLinks2] = useState(false);
+    const [links3, setLinks3] = useState(false);
 
   return (
     <div id="myProjects_main">
@@ -29,11 +31,11 @@ const Myprojects = () => {
         <div
         onMouseEnter={()=>
         
-            setLinks(true)
+            setLinks1(true)
             
           }
            onMouseLeave={()=>{
-               setLinks(false)
+               setLinks1(false)
            }}
           className="About_container__63eab"
           style={{boxShadow: "rgb(36, 36, 58) 3px 3px 5px"}}
@@ -46,7 +48,7 @@ const Myprojects = () => {
           </div>
 
 
-          { links &&  
+          { links1 &&  
           <div id="projectLinks" style={{backgroundColor:"rgb(12, 20, 27)", boxShadow:"rgb(36, 36, 58) 3px 3px 5px", borderRadius: "15px" }}>
           <div style={{display: "flex",margin: "auto", width:"9rem", height:"4.5rem", padding:"0.5rem",justifyContent:"center", }}>
             <div id="git">
@@ -67,12 +69,12 @@ const Myprojects = () => {
           }
 
           <div className="About_second__g9Cy4">
-            <h1
+            <h2
               className="About_heading__HT8z+"
               style={{color: "rgb(204, 214, 246)"}}
             >
               MamaEart.com Clone
-            </h1>
+            </h2>
             <div className="About_borderBottom__C8CzR"></div>
             <p
               className="About_aboutMe__Kx5NY"
@@ -87,7 +89,7 @@ const Myprojects = () => {
               Tech-Stacks we used to build the clone are
               <span style={{color: "rgb(0, 160, 160)"}}>
                 {" "}
-                 Javascript | HTML5 | CSS3 | GitHub 
+                React.js | Javascript | HTML5 | CSS3 | GitHub 
               </span>
               .
             </p>
@@ -105,11 +107,11 @@ const Myprojects = () => {
         <div
         onMouseEnter={()=>
         
-            setLinks(true)
+            setLinks2(true)
             
           }
            onMouseLeave={()=>{
-               setLinks(false)
+               setLinks2(false)
            }}
           className="About_container__63eab"
           style={{boxShadow: "rgb(36, 36, 58) 3px 3px 5px"}}
@@ -122,7 +124,7 @@ const Myprojects = () => {
           </div>
 
 
-          { links &&  
+          { links2 &&  
           <div id="projectLinks" style={{backgroundColor:"rgb(12, 20, 27)", boxShadow:"rgb(36, 36, 58) 3px 3px 5px", borderRadius: "15px" }}>
           <div style={{display: "flex",margin: "auto", width:"9rem", height:"4.5rem", padding:"0.5rem",justifyContent:"center", }}>
             <div id="git">
@@ -144,12 +146,12 @@ const Myprojects = () => {
           }
 
           <div className="About_second__g9Cy4">
-            <h1
+            <h2
               className="About_heading__HT8z+"
               style={{color: "rgb(204, 214, 246)"}}
             >
               Sephora.com Clone
-            </h1>
+            </h2>
             <div className="About_borderBottom__C8CzR"></div>
             <p
               className="About_aboutMe__Kx5NY"
@@ -185,11 +187,11 @@ const Myprojects = () => {
         <div
          onMouseEnter={()=>
         
-            setLinks(true)
+            setLinks3(true)
             
           }
            onMouseLeave={()=>{
-               setLinks(false)
+               setLinks3(false)
            }}
           className="About_container__63eab"
           style={{boxShadow: "rgb(36, 36, 58) 3px 3px 5px"}}
@@ -202,7 +204,7 @@ const Myprojects = () => {
           </div>
 
 
-          { links &&  
+          { links3 &&  
           <div id="projectLinks" style={{backgroundColor:"rgb(12, 20, 27)", boxShadow:"rgb(36, 36, 58) 3px 3px 5px", borderRadius: "15px" }}>
           <div style={{display: "flex",margin: "auto", width:"9rem", height:"4.5rem", padding:"0.5rem",justifyContent:"center", }}>
             <div id="git">
@@ -223,12 +225,12 @@ const Myprojects = () => {
           }
 
           <div className="About_second__g9Cy4">
-            <h1
+            <h2
               className="About_heading__HT8z+"
               style={{color: "rgb(204, 214, 246)"}}
             >
              CrinInfo.com Clone
-            </h1>
+            </h2>
             <div className="About_borderBottom__C8CzR"></div>
             <p
               className="About_aboutMe__Kx5NY"
@@ -244,7 +246,7 @@ const Myprojects = () => {
               Tech-Stacks we used to build the clone are
               <span style={{color: "rgb(0, 160, 160)"}}>
                 {" "}
-                 React.js | Javascript | HTML5 | CSS3 | GitHub 
+                  Javascript | HTML5 | CSS3 | GitHub 
               </span>
               .
             </p>

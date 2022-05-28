@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/navbar.css"
+import logo from "../images/logo.png"
 
 
 const Navbar = () => {
@@ -8,7 +9,7 @@ const Navbar = () => {
         <nav id="navDiv" className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: "rgb(12, 20, 27)", height : "4rem"}}>
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
-        <img className="myLogo" src="https://storage.googleapis.com/designify-images-tmp/10a433fe-7819-4d51-b479-170ad7c206b1.png" alt="" />
+        <img className="myLogo" src={logo} alt="" />
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

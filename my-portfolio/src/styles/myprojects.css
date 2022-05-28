@@ -1,3 +1,30 @@
+#myProjects_main{
+    /* border-top: 20px solid red; */
+    margin: 0vh 0;
+    padding: 60px 0;
+    background: rgb(15, 22, 34);
+}
+.project_childs{
+    border: 1px solid rgb(224, 208, 208);
+    width: 70%;
+    height: 6vh;
+    margin: auto;
+}
+.myProjects_heading__phVYz {
+    color: rgb(204, 214, 246);
+    color: #8993b1;
+    line-height: 40px;
+    margin: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.myProjects_borderBottom__RLbe1 {
+    border-bottom: 3px solid #0282bd;
+    border-radius: 10px;
+    margin: 5px auto;
+    width: 10vw;
+}
 .Home_experience__g58MS {
     /* border: 3px solid rgba(235, 19, 19, 0.911); */
     display: flex;
@@ -19,11 +46,14 @@
 }
 .About_first__P-0xg {
     display: flex;
-    width: 40%;
+    width: 50%;
+}
+.About_first__P-0xg>img{
+    width: 100%;
 }
 .About_second__g9Cy4 {
     text-align: justify;
-    width: 50%;
+    width: 40%;
     margin-left:5rem;
 }
 .About_heading__HT8z\+ {
@@ -48,7 +78,7 @@ h1 {
     border-radius: 10px;
     color: #aaeff8;
     margin: 5px auto;
-    width: 100px;
+    width: 16rem;
 }
 .About_aboutMe__Kx5NY {
     font-family: var(--font-sans);
@@ -56,4 +86,23 @@ h1 {
     font-size: 1.2rem;
     font-weight: 400;
     padding-right: 20px;
+}
+#git{
+    padding: 0.1rem;
+    margin: auto;
+    margin-top: -1rem;
+}
+#gotoProject{
+    padding: 0.1rem;
+    margin: auto;
+    margin-top: -1rem;
+}
+#about:hover{ 
+    cursor:pointer;
+}
+#projectLinks{
+    border: 5px solid white;
+    position:absolute;
+    z-index: 1;
+    margin-left: 50% ;
 }

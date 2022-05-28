@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/profile.css";
+import profilepic from "../images/profile-pic.png"
+
+// import Link from "react-router-dom"
 
 const Profile = () => {
   return (
@@ -12,10 +15,17 @@ const Profile = () => {
             <p>Full Stack Web Developer</p>
           </div>
           <div id="view-resume">
-            <div>View Resume</div>
             <div>
-              <i class="fas fa-file-download" aria-hidden="true"></i>
-            </div>
+            <a style={{textDecoration: 'none', color:"rgb(201, 209, 231)" }} href ="https://drive.google.com/file/d/19SqAXrK5PMwJWrzfraey8eZvW8lbMQwK/view?usp=sharing">
+
+              View Resume
+              </a>
+              </div>
+              <div>
+                <i className="fas fa-file-download" aria-hidden="true"></i>
+              </div>
+        
+            
           </div>
         </div>
       </div>
@@ -23,7 +33,7 @@ const Profile = () => {
 
       <div id="dp-Div">
         <div id="dp">
-            <img id="img-dp" src="https://o.remove.bg/downloads/b57a7223-b127-4a96-a0a6-5f7be269e677/1649504316031-removebg-preview.png" alt="Sachin Ingale's display pic" />
+            <img id="img-dp" src={profilepic} />
         </div>
       </div>
 

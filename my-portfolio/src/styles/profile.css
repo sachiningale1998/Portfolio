@@ -58,13 +58,10 @@
       margin-top: 1rem;
       background-color:  rgb(157, 148, 148);
       border: 1px solid rgb(157, 148, 148);
-      
-      width: 12rem;
+      /* width: 14rem; */
       font-size:1.4rem;
       color: rgb(201, 209, 231);
-
-
-      background: linear-gradient(-135deg,#7f1adf,#e7a41f);
+    background: linear-gradient(-135deg,#7f1adf,#e7a41f);
     border: none;
     border-radius: 5px;
     margin: 10px 0;

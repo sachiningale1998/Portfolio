@@ -147,4 +147,13 @@ h1 {
   #git > a span {
     width: 0.5rem;
   }
+  .About_aboutMe__Kx5NY {
+    font-family: var(--font-sans);
+    font-family: Roboto Mono, monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 0px;
+    letter-spacing: 0.1rem;
+    word-spacing : 0.1rem;
+  }
 }

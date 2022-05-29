@@ -10,6 +10,7 @@
 }
 #profile-left-1 {
   padding: 6rem;
+
 }
 #name {
   font-size: 3rem;
@@ -121,6 +122,12 @@
 /* **********media queries ********** */
 
 @media all and (max-width: 600px) {
+  #profile-left-1 {
+    padding: 1.4rem;
+    padding-top: 2rem;
+    /* letter-spacing: 0.1em; */
+  
+  }
   #name {
     font-size: 1.8rem;
     letter-spacing: 0.1em;

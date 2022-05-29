@@ -211,4 +211,36 @@ TechStacks_logoWrapper__JIjNc > i {
     justify-content: center;
     align-items: center;
   }
+  .TechStacks_logoWrapper__JIjNc {
+    align-items: center;
+    border-radius: 15px;
+    -webkit-clip-path: polygon(
+      50% 0,
+      90% 20%,
+      100% 87%,
+      75% 100%,
+      25% 100%,
+      0 88%,
+      10% 20%
+    );
+    clip-path: polygon(
+      50% 0,
+      90% 20%,
+      100% 87%,
+      75% 100%,
+      25% 100%,
+      0 88%,
+      10% 20%
+    );
+    color: #fff8dc;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.5s;
+    width: 100px;
+    text-align: center;
+  }
 }

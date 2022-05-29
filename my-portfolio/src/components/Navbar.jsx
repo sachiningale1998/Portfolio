@@ -15,7 +15,7 @@ const Navbar = () => {
           <a className="navbar-brand" href="#">
             <img className="myLogo" src={logo} alt="" />
           </a>
-          <button
+          <button 
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"

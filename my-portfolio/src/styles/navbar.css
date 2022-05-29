@@ -52,10 +52,11 @@
     filter: contrast(200%);
     box-shadow: rgba(168, 199, 224, 0.25) 0px 6px 12px -2px,
       rgba(139, 205, 240, 0.3) 0px 3px 7px -3px;
-    width: 25%;
-    margin-left: 69vw;
+    width: 30%;
+    margin-left: 65vw;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    align-self: right;
   }
   #listComponents {
     margin-top: 0.7rem;
@@ -82,5 +83,10 @@
   .links {
     text-decoration: none;
     color: #339fec;
+  }
+  .navbar-toggler{
+    background-color: white;
+    border: 3px solid rgb(0, 9, 78);
+
   }
 }

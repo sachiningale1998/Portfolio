@@ -161,8 +161,8 @@ const Techstacks = () => {
                   "linear-gradient(120deg, rgb(24, 39, 68), rgb(19, 44, 38))",
               }}
             >
-              <i className="devicon-mongodb-plain colored"></i>
-              <span>MongoDB Atlas</span>
+              <i class="devicon-bootstrap-plain"></i>
+              <span>BootStrap</span>
             </div>
             <div
               className="TechStacks_logoWrapper__JIjNc"

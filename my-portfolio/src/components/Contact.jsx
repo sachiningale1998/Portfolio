@@ -1,7 +1,18 @@
 import React from "react";
 import "../styles/contact.css";
 
+import emailjs from "emailjs-com";
+
 const Contact = () => {
+
+  const sendEmail = (e) => {
+      e.preventDefault();
+
+      
+
+  }
+
+
   return (
     <div id="footer">
       <div className="getintouch">
@@ -88,8 +99,8 @@ const Contact = () => {
         </h6>
       </div>
 
-      <div style={{ width: "50%", justifyContent: "center", margin: "auto" }}>
-        <form className="form-sas">
+      <div className="sendMail" >
+        <form  className="form-sas">
           <div>
             <input
               name="from_name"

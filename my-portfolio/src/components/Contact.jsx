@@ -8,8 +8,19 @@ const Contact = () => {
   const sendEmail = (e) => {
       e.preventDefault();
 
-      
+      emailjs.sendForm('service_ec59sqd', 'template_wmogvb4', e.target, 'k-kuln_Egz6gjK4jJ')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
 
+      e.terget.reset();
+      alert("Hey, I'm glad that you tried contacting me, I'll get in touch with you soon.")
+  }
+
+  const setAlert=()=>{
+    alert("Hey, I'm glad that you tried contacting me, I'll get in touch with you soon.")
   }
 
 
@@ -100,10 +111,10 @@ const Contact = () => {
       </div>
 
       <div className="sendMail" >
-        <form  className="form-sas">
+        <form onSubmit={sendEmail} className="form-sas">
           <div>
             <input
-              name="from_name"
+              name="name"
               placeholder="Enter your name"
               type="name"
               className="Contact_formsubi__xHwJa form-control"
@@ -119,7 +130,8 @@ const Contact = () => {
             ></textarea>
           </div>
           <br />
-          <button
+          
+          <button onClick={setAlert}
             type="submit"
             className="Contact_buttonComponent__JAxTI btn btn-primary"
           >

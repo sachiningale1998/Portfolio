@@ -18,7 +18,7 @@ const Profile = () => {
             <div>
               <a
                 style={{ textDecoration: "none", color: "rgb(201, 209, 231)" }}
-                href="https://drive.google.com/file/d/19SqAXrK5PMwJWrzfraey8eZvW8lbMQwK/view?usp=sharing"
+                href="https://drive.google.com/file/d/1XIn2Jkn8nyfrIlfQOEOOKKN5EZHcm2kI/view?usp=sharing"
               >
                 View Resume
               </a>
